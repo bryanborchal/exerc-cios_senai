@@ -8,6 +8,7 @@ peca = st.sidebar.selectbox("Selecione a peça",pecas)
 # -------------------------------------------------------------- PRINCIPAL
 st.title("Peças boas e baratas para PC")
 if peca == "AMD Ryzen 5 5600GT":
+    st.sidebar.markdown("# Main page 🎈")
     st.write('AMD Ryzen 5 5600GT')
 elif peca == "16GB DDR4":
     st.write("16GB DDR4")
@@ -20,5 +21,5 @@ elif peca == "Cooler para Processador T-Dagger Idun R, 90mm, LED Red, Intel-AMD,
     st.markdown("""O Cooler para Processador T-Dagger Idun R (T-GC9109 R) é uma opção de entrada acessível para quem busca melhorar a refrigeração do processador com um toque 
                 \nestético. Este cooler é compatível com diversos sockets de processadores Intel e AMD, tornando-o versátil para upgrades em sistemas mais antigos ou PCs de entrada.""")
     st.subheader("Especificações Técnicas :")
-    st.write("""- Dissipador: 94 x 64 x 132 mm""")
-    st.write("""- Fan (ventoinha): 90 x 90 x 25 mm""")
+    st.write("""- Intel: LGA775, LGA115X, LGA1366""")
+    st.write("""- AMD: FM2+, FM2, FM1, AM2, AM3+, AM4, 940, 939, 754""")
