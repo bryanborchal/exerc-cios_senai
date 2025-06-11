@@ -1,0 +1,10 @@
+nome = input('Digite seu nome completo: ')
+nome = nome.strip(" ")
+nome = nome.lower()
+nome = nome.replace(' ', '.')
+
+#print(type(mensagem))
+#mensagem = mensagem.split()
+#print(mensagem)
+#print(type(mensagem))
+#print(mensagem[0])
